@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "pretty"
         },
         glue = "com.czeczotka.bdd.steps",
-        features="src/test/resources/cucumber/calculator.feature"
+        features="classpath:cucumber/calculator.feature"
         //src/test/resources/cucumber/calculator.feature
         //classpath:cucumber/calculator.feature
 )
