@@ -101,7 +101,10 @@ public class CalculatorSteps {
 
     @Then("the energy should be {int} MJ")
     public void theEnergyShouldBeEnergyMJ(int arg0) {
-        assertEquals(2, 3);
+        if(arg0==26500) {
+            assertEquals(2, 3);
+        }
+        else{throw new RuntimeException("fdsf");}
     }
 
     @Given("the cow weighs {int} kg")
