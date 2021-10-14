@@ -38,7 +38,7 @@ public class CalculatorSteps {
 
     @Then("some testable outcome is achieved")
     public void someTestableOutcomeIsAchieved() {
-        assertEquals(4, 5);
+        throw new RuntimeException("fdsf");
     }
 
     @And("some other precondition with doc string")
