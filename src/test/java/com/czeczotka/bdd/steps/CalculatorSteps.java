@@ -34,6 +34,7 @@ public class CalculatorSteps {
 
     @Given("a global administrator named {string}")
     public void aGlobalAdministratorNamed(String arg0) {
+
     }
 
     @Then("some testable outcome is achieved")
@@ -100,6 +101,7 @@ public class CalculatorSteps {
 
     @Then("the energy should be {int} MJ")
     public void theEnergyShouldBeEnergyMJ(int arg0) {
+        assertEquals(2, 3);
     }
 
     @Given("the cow weighs {int} kg")
