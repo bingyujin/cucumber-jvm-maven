@@ -15,8 +15,8 @@ public class CalculatorSteps {
 
     @Before
     public void setUp() {
-        Assume.assumeTrue(false);
-        //calculator = new Calculator();
+        //Assume.assumeTrue(false);
+        calculator = new Calculator();
     }
 
     @Given("^I have a calculator$")
