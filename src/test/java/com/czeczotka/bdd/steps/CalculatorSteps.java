@@ -3,11 +3,7 @@ package com.czeczotka.bdd.steps;
 import com.czeczotka.bdd.calculator.Calculator;
 import cucumber.api.PendingException;
 import cucumber.api.java.Before;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.When;
-
+import cucumber.api.java.en.*;
 
 
 import static org.junit.Assert.assertEquals;
@@ -77,11 +73,31 @@ public class CalculatorSteps {
 
     @Then("^some testable outcome is achieved$")
     public void someTestableOutcomeIsAchieved() {
+        throw new PendingException();
         
     }
 
 
     @And("^something else we can check happens too$")
     public void somethingElseWeCanCheckHappensToo() {
+    }
+
+    @Given("^some precondition$")
+    public void somePrecondition() {
+
+    }
+
+    @And("^some other precondition with doc string$")
+    public void someOtherPreconditionWithDocString() {
+
+    }
+
+    @And("^yet another action$")
+    public void yetAnotherAction() {
+
+    }
+
+    @But("^I don't see something else$")
+    public void iDonTSeeSomethingElse() {
     }
 }
