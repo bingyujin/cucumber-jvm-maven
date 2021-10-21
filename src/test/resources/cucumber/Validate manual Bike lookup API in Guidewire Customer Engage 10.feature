@@ -26,7 +26,7 @@ Feature: Validate manual Bike lookup API in Guidewire Customer Engage 10
 
 
   @228105_In_validProductCodeValidManufacturer @QandBAPIRegression
-  Scenario Outline: aa b
+  Scenario Outline: aab
     Given user constructs request  with "<Request Type>" and with parameters "<Product code>" "<Manufacturer>" and "<Model>"
     When  user retrieves the response  for manual bike lookup
     Then  validate the manual Bike lookup API response error is similar to Guidewire previous version response
