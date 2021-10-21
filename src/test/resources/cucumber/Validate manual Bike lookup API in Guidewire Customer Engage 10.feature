@@ -6,7 +6,7 @@ Feature: Validate manual Bike lookup API in Guidewire Customer Engage 10
 
 
   @228105_InvalidProductCode @QandBAPIRegression
-  Scenario Outline: Validation of manual Bike lookup API in Guidewire Customer Engage 10 with In-valid Product code and Valid manufacturer
+  Scenario Outline: aa
     Given user constructs request  with "<Request Type>" and with parameters "<Product code>" "<Manufacturer>" and "<Model>"
     When  user retrieves the response  for manual bike lookup
     Then  validate the manual Bike lookup API response error is similar to Guidewire previous version response
@@ -26,7 +26,7 @@ Feature: Validate manual Bike lookup API in Guidewire Customer Engage 10
 
 
   @228105_In_validProductCodeValidManufacturer @QandBAPIRegression
-  Scenario Outline: Validation of manual Bike lookup API in Guidewire Customer Engage 10 with In-valid Product code
+  Scenario Outline: aa b
     Given user constructs request  with "<Request Type>" and with parameters "<Product code>" "<Manufacturer>" and "<Model>"
     When  user retrieves the response  for manual bike lookup
     Then  validate the manual Bike lookup API response error is similar to Guidewire previous version response
