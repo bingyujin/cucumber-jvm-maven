@@ -1,12 +1,13 @@
 #Auto generated Octane revision tag
 @TID271033REV0.1.0 @QandBAPIRegression
 
-Feature: ff
+Feature: Validate manual Bike lookup API in Guidewire Customer Engage 10
+
 
 
 
   @228105_InvalidProductCode @QandBAPIRegression
-  Scenario Outline: aa
+  Scenario Outline: Validation of manual Bike lookup API in Guidewire Customer Engage 10 with In-valid Product code
     Given user constructs request  with "<Request Type>" and with parameters "<Product code>" "<Manufacturer>" and "<Model>"
     When  user retrieves the response  for manual bike lookup
     Then  validate the manual Bike lookup API response error is similar to Guidewire previous version response
@@ -26,7 +27,7 @@ Feature: ff
 
 
   @228105_In_validProductCodeValidManufacturer @QandBAPIRegression
-  Scenario Outline: aab
+  Scenario Outline: Validation of manual Bike lookup API in Guidewire Customer Engage 10 with In-valid Product code and Valid manufacturer
     Given user constructs request  with "<Request Type>" and with parameters "<Product code>" "<Manufacturer>" and "<Model>"
     When  user retrieves the response  for manual bike lookup
     Then  validate the manual Bike lookup API response error is similar to Guidewire previous version response
