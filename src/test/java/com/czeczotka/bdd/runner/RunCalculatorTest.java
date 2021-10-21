@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "pretty"
         },
         glue = "com.czeczotka.bdd.steps",
-        features="src/test/resources/cucumber"
+        features="src/test/resources/cucumber/Validate manual Bike lookup API in Guidewire Customer Engage 10.feature"
         //src/test/resources/cucumber/calculator.feature
         //classpath:cucumber/calculator.feature
 )
