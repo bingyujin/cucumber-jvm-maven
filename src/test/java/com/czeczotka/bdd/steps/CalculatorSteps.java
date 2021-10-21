@@ -1,7 +1,7 @@
 package com.czeczotka.bdd.steps;
 
 import com.czeczotka.bdd.calculator.Calculator;
-import gherkin.ast.DataTable;
+//import gherkin.ast.DataTable;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 import org.junit.Assume;
@@ -108,6 +108,7 @@ public class CalculatorSteps {
 
     @Given("the cow weighs <weight> kg")
     public void theCowWeighsWeightKg() {
+        
     }
 
     @When("we calculate the feeding requirements")
@@ -124,5 +125,18 @@ public class CalculatorSteps {
 
     @Given("the cow weighs {int} kg")
     public void theCowWeighsWeighctKg(int arg0) {
+    }
+
+    @Given("I create a quote with driver and vehicle details with policy period {string} for {string}")
+    public void iCreateAQuoteWithDriverAndVehicleDetailsWithPolicyPeriodFor(String arg0, String arg1) {
+    }
+
+    @When("I send bind request with {string} {string} {string}{string} {string} {string} {string} {string}")
+    public void iSendBindRequestWith(String arg0, String arg1, String arg2, String arg3, String arg4, String arg5, String arg6, String arg7) {
+        
+    }
+
+    @Then("quote should get bound and policy number should be generated")
+    public void quoteShouldGetBoundAndPolicyNumberShouldBeGenerated() {
     }
 }
