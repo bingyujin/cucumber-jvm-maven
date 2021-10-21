@@ -1,7 +1,7 @@
 #Auto generated Octane revision tag
 @BSPID22009REV0.2.0 @QandBAPIRegression
 
-Feature: Validate Van Registration Number Look up against DVLA (CE API)
+Feature: Validate Van Registration Number Look up against DVLA CE API
 
     @TSCID290091
   Scenario Outline: Validation of valid Van registration number look up
