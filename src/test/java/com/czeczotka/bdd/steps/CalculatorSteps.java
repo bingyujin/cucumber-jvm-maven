@@ -93,7 +93,7 @@ public class CalculatorSteps {
 //        }
 //        else{throw new RuntimeException("fdsf");}
         if(arg0==26500) {
-            throw new PendingException();
+            throw new RuntimeException();
         }
         else{
         }
