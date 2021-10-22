@@ -95,7 +95,7 @@ public class CalculatorSteps {
         if(arg0==26500) {
             throw new PendingException();
         }
-        else{throw new RuntimeException();
+        else{
         }
     }
     //no need
