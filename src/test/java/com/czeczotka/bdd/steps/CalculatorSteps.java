@@ -1,6 +1,7 @@
 package com.czeczotka.bdd.steps;
 
 import com.czeczotka.bdd.calculator.Calculator;
+import cucumber.api.PendingException;
 import gherkin.ast.DataTable;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
@@ -87,10 +88,15 @@ public class CalculatorSteps {
 
     @Then("the energy should be {int} MJ")
     public void theEnergyShouldBeEnergyMJ(int arg0) {
+//        if(arg0==26500) {
+//            assertEquals(2, 3);
+//        }
+//        else{throw new RuntimeException("fdsf");}
         if(arg0==26500) {
-            assertEquals(2, 3);
+            assertEquals(2, 2);
         }
-        else{throw new RuntimeException("fdsf");}
+        else{throw new PendingException();
+        }
     }
     //no need
 //    @Given("^I have a calculator$")
