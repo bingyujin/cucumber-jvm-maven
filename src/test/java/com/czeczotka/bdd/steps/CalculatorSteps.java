@@ -1,14 +1,8 @@
 package com.czeczotka.bdd.steps;
 
 import com.czeczotka.bdd.calculator.Calculator;
-import cucumber.api.PendingException;
-import gherkin.ast.DataTable;
-import io.cucumber.java.Before;
-import io.cucumber.java.en.*;
-import org.junit.Assume;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
+import cucumber.api.java.Before;
+import cucumber.api.java.en.*;
 
 public class CalculatorSteps {
 
