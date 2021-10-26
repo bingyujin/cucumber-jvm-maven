@@ -1,8 +1,9 @@
 package com.czeczotka.bdd.steps;
 
 import com.czeczotka.bdd.calculator.Calculator;
-import cucumber.api.java.Before;
-import cucumber.api.java.en.*;
+import io.cucumber.java.Before;
+import io.cucumber.java.en.*;
+import org.junit.Assert;
 
 public class CalculatorSteps {
 
@@ -86,11 +87,12 @@ public class CalculatorSteps {
 //            assertEquals(2, 3);
 //        }
 //        else{throw new RuntimeException("fdsf");}
-        if(arg0==26500) {
-            throw new RuntimeException();
-        }
-        else{
-        }
+//        if(arg0==26500) {
+//            throw new RuntimeException();
+//        }
+//        else{
+//        }
+        Assert.assertTrue(true);
     }
     //no need
 //    @Given("^I have a calculator$")
