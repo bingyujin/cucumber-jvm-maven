@@ -51,6 +51,7 @@ public class CalculatorSteps {
 
     @And("something else we can check happens too")
     public void somethingElseWeCanCheckHappensToo() {
+        throw new RuntimeException("fdfds");
     }
 
 
@@ -92,7 +93,7 @@ public class CalculatorSteps {
 //        }
 //        else{
 //        }
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
     //no need
 //    @Given("^I have a calculator$")
