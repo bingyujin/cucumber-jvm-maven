@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         plugin = {
                 "junit:target/junit-cucumber-reports/calculatortwo.xml",
                 "html:target/cucumber",
-                "pretty"
+                "pretty", "summary"
         },
         glue = "com.czeczotka.bdd.steps",
         features="src/test/resources/cucumber"
