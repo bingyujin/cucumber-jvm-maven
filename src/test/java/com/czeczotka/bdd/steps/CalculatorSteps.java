@@ -3,6 +3,7 @@ package com.czeczotka.bdd.steps;
 import com.czeczotka.bdd.calculator.Calculator;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
+import org.junit.Assert;
 
 public class CalculatorSteps {
 
@@ -57,6 +58,7 @@ public class CalculatorSteps {
     //Some another scenario 2 steps
     @Given("some precondition")
     public void somePrecondition() {
+        Assert.assertEquals(2,3);
 
     }
     @And("some other precondition with doc string")
