@@ -70,11 +70,11 @@ public class CalculatorSteps {
 //    public void yetAnotherAction() {
 //        throw new PendingException();
 //    }
-//@When("yet another action")
-//public void yet_another_action() {
-//    // Write code here that turns the phrase above into concrete actions
-//    throw new io.cucumber.java.PendingException();
-//}
+@When("yet another action")
+public void yet_another_action() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
 
     @But("I don't see something else")
     public void iDonTSeeSomethingElse() {
