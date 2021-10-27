@@ -2,6 +2,7 @@ package com.czeczotka.bdd.steps;
 
 import com.czeczotka.bdd.calculator.Calculator;
 import io.cucumber.java.Before;
+import io.cucumber.java.PendingException;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
@@ -65,9 +66,10 @@ public class CalculatorSteps {
     public void someOtherPreconditionWithDocString(String a) {
 
     }
-    @And("yet another action")
-    public void yetAnotherAction() {
-    }
+//    @And("yet another action")
+//    public void yetAnotherAction() {
+//        throw new PendingException();
+//    }
     @But("I don't see something else")
     public void iDonTSeeSomethingElse() {
     }
