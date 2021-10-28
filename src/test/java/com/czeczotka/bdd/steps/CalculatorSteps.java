@@ -19,6 +19,7 @@ public class CalculatorSteps {
     @Given("a global administrator named {string}")
     public void aGlobalAdministratorNamed(String arg0) {
 
+
     }
     @Given("a blog named \"Greg's anti-tax rants\"")
     public void saomePrecondition() {
@@ -52,7 +53,7 @@ public class CalculatorSteps {
 
     @And("something else we can check happens too")
     public void somethingElseWeCanCheckHappensToo() {
-        //throw new RuntimeException("fdfds");
+        throw new RuntimeException("fdfds");
     }
 
 
@@ -92,9 +93,9 @@ public void yet_another_action() {
 
     @Then("the energy should be {int} MJ")
     public void theEnergyShouldBeEnergyMJ(int arg0) {
-//        if(arg0==26500) {
-//            assertEquals(2, 3);
-//        }
+        if(arg0==26500) {
+            Assert.assertEquals(2, 3);
+        }
 //        else{throw new RuntimeException("fdsf");}
 //        if(arg0==26500) {
 //            throw new RuntimeException();
