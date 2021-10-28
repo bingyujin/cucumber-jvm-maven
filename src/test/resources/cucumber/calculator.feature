@@ -34,6 +34,7 @@ Feature: Some terse yet descriptive text of what is desired like bla bla
     Then some testable outcome is achieved
     * something else we can check happens too
     But I don't see something else
+    And aaa
 
 
   Scenario Outline: feeding a cow <name> yum yum yum
