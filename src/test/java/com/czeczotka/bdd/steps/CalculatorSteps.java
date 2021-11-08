@@ -96,7 +96,7 @@ public void yet_another_action() {
         if(arg0==26500) {
             Assert.assertEquals(2, 3);
         }
-//        else{throw new RuntimeException("fdsf");}
+        else{throw new RuntimeException("fdsf");}
 //        if(arg0==26500) {
 //            throw new RuntimeException();
 //        }
