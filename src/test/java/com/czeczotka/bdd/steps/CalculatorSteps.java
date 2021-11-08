@@ -15,16 +15,19 @@ public class CalculatorSteps {
         //Assume.assumeTrue(false);
         calculator = new Calculator();
     }
+
     //background steps
     @Given("a global administrator named {string}")
     public void aGlobalAdministratorNamed(String arg0) {
 
 
     }
+
     @Given("a blog named \"Greg's anti-tax rants\"")
     public void saomePrecondition() {
 
     }
+
     @Given("a customer named \"Wilson\"")
     public void saomsePrecondition() {
 
@@ -34,10 +37,12 @@ public class CalculatorSteps {
     @Given("the following people exist:")
     public void theFollowingPeopleExist(io.cucumber.datatable.DataTable table) {
     }
+
     @And("some precondition {int}")
     public void somePrecondition(int arg0) {
 
     }
+
     @When("some action by the actor")
     public void someActionByTheActor() {
 
@@ -46,6 +51,7 @@ public class CalculatorSteps {
     @And("some other action")
     public void someOtherAction() {
     }
+
     @Then("some testable outcome is achieved")
     public void someTestableOutcomeIsAchieved() {
         //throw new RuntimeException("fdsf");
@@ -53,9 +59,8 @@ public class CalculatorSteps {
 
     @And("something else we can check happens too")
     public void somethingElseWeCanCheckHappensToo() {
-        throw new RuntimeException("fdfds");
+//        throw new RuntimeException("fdfds");
     }
-
 
 
     //Some another scenario 2 steps
@@ -63,19 +68,21 @@ public class CalculatorSteps {
     public void somePrecondition() {
 
     }
+
     @And("some other precondition with doc string")
     public void someOtherPreconditionWithDocString(String a) {
 
     }
-//    @And("yet another action")
+
+    //    @And("yet another action")
 //    public void yetAnotherAction() {
 //        throw new PendingException();
 //    }
-@When("yet another action")
-public void yet_another_action() {
-    // Write code here that turns the phrase above into concrete actions
-   // throw new io.cucumber.java.PendingException();
-}
+    @When("yet another action")
+    public void yet_another_action() {
+        // Write code here that turns the phrase above into concrete actions
+        // throw new io.cucumber.java.PendingException();
+    }
 
     @But("I don't see something else")
     public void iDonTSeeSomethingElse() {
@@ -93,16 +100,16 @@ public void yet_another_action() {
 
     @Then("the energy should be {int} MJ")
     public void theEnergyShouldBeEnergyMJ(int arg0) {
-        if(arg0==26500) {
-            Assert.assertEquals(2, 3);
-        }
-        else{throw new RuntimeException("fdsf");}
+//        if(arg0==26500) {
+//            Assert.assertEquals(2, 3);
+//        }
+//        else{throw new RuntimeException("fdsf");}
 //        if(arg0==26500) {
 //            throw new RuntimeException();
 //        }
 //        else{
 //        }
-       // Assert.assertTrue(false);
+        // Assert.assertTrue(false);
     }
     //no need
 //    @Given("^I have a calculator$")
