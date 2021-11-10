@@ -12,6 +12,7 @@ Feature:
 
   @Quick @full @annoy
   Scenario: Some determinable business situation
+    * an asterisk step
     Given the following people exist:
       | name  | email           | phone |
       | Aila  | aila@email.com  | 123   |
