@@ -6,13 +6,14 @@ Feature:
   lines
 
   Background:
+    * an asterisk step1
     Given a global administrator named "Greg"
     * a blog named "Greg's anti-tax rants"
     * a customer named "Wilson"
 
   @Quick @full @annoy
   Scenario: Some determinable business situation
-    * an asterisk step
+    * an asterisk step2
     Given the following people exist:
       | name  | email           | phone |
       | Aila  | aila@email.com  | 123   |
