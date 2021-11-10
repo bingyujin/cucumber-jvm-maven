@@ -42,7 +42,7 @@ Feature:
   Scenario Outline: feeding a cow <name> yum yum yum
   scenario outline
   description
-    * an asterisk step3
+    And an and step3
     Given the cow weighs <weight> kg
     When we calculate the feeding requirements
     Then the energy should be <energy> MJ
