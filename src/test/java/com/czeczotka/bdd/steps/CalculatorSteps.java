@@ -539,7 +539,7 @@ public class CalculatorSteps {
     public void sendTheRequestWithAccountNumberAsAndSortCodeAs(String arg0, String arg1) {
     }
 
- 
+
 
     @Then("Validate the bike registration number response to check if response values are similar to existing one")
     public void validateTheBikeRegistrationNumberResponseToCheckIfResponseValuesAreSimilarToExistingOne() {
@@ -687,5 +687,9 @@ public class CalculatorSteps {
 
     @Given("I enter a blank Postcode {string} in Postcode Address Finder")
     public void iEnterABlankPostcodeInPostcodeAddressFinder(String arg0) {
+    }
+
+    @Given("I create a quote with driver and vehicle details with policyPeriod {string} for {string}")
+    public void iCreateAQuoteWithDriverAndVehicleDetailsWithPolicyPeriodFor(String arg0, String arg1) {
     }
 }
