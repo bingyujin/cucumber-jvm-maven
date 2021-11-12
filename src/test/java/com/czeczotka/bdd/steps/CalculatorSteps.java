@@ -690,6 +690,6 @@ public class CalculatorSteps {
     }
 
     @Given("I create a quote with driver and vehicle details with policyPeriod {string} for {string}")
-    public void iCreateAQuoteWithDriverAndVehicleDetailsWithPolicyPeriodFor(String arg0, String arg1) {
+    public void iCreanteAQuoteWithDriverAndVehicleDetailsWithPolicyPeriodFor(String arg0, String arg1) {
     }
 }
