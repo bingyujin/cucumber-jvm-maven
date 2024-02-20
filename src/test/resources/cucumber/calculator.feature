@@ -18,6 +18,7 @@ Feature: Some terse yet descriptive text of what is desired like bla bla
       | Joe   | joe@email.com   | 234   |
     And some precondition 1
     When some action by the actor
+    And I don't know
     And some other action
     Then some testable outcome is achieved
     And something else we can check happens too
