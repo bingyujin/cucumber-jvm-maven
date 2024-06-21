@@ -2,7 +2,6 @@ package com.czeczotka.bdd.steps;
 
 import com.czeczotka.bdd.calculator.Calculator;
 import io.cucumber.java.Before;
-import io.cucumber.java.PendingException;
 import io.cucumber.java.en.*;
 import org.junit.Assert;
 
@@ -92,8 +91,9 @@ public void yet_another_action() {
     }
 
     @Then("the energy should be {int} MJ")
-    public void theEnergyShouldBeEnergyMJ(int arg0) {
-        if(arg0==26500) {
+    public void theEnergyShouldBeEnergyMJ(int arg0) throws InterruptedException {
+        Thread.sleep(10000);
+        if (arg0 == 26500) {
             Assert.assertEquals(2, 3);
         }
 //        else{throw new RuntimeException("fdsf");}
